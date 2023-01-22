@@ -25,7 +25,7 @@ const Filter = props => {
 
 Filter.propTypes = {
   onFilter: PropTypes.func.isRequired,
-  filter: PropTypes.string,
+  filter: PropTypes.string.isRequired,
 };
 
 export default Filter;
